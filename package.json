@@ -13,9 +13,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "jquery": "^3.6.0",
+    "md5": "^2.3.0",
+    "popper.js": "^1.16.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-scripts": "4.0.3"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "4.0.3",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "faker": "^5.5.3",

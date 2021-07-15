@@ -2,6 +2,7 @@ import React from 'react'
 
 import confLogo from '../images/badge-header.svg'
 import './styles/Badge.css'
+import Gravatar from "./Gravatar";
 
 
 class Badge extends React.Component{
@@ -16,16 +17,16 @@ class Badge extends React.Component{
                 </div>
 
                 <div className={'badge_section-name'}>
-                    <img
+                    <Gravatar
                         className={'badge_avatar'}
-                        src={this.props.avatarURL}
-                        alt={'Avatar'}
+                        email={this.props.email}
+                        alt={'avatar'}
                     />
                     <h1>{this.props.firstName}<br/>{this.props.lastName}</h1>
                 </div>
                 <div className={'badge_section-info'}>
-                    <h3>{this.props.degree}</h3>
-                    <div>@{this.props.instagram}</div>
+                    <h3>{this.props.jobTitle}</h3>
+                    <div>@{this.props.twitter}</div>
                 </div>
                 <div className={'badge_footer'}>
                     #platzi
